@@ -111,7 +111,7 @@
       >
         <div className="badge">
           <Image src={buildspaceLogo} alt="buildspace logo" />
-          <p>build with buildspace</p>
+          <p>by chriscelaya</p>
         </div>
       </a>
     </div>
