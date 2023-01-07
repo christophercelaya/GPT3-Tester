@@ -5,22 +5,22 @@ const configuration = new Configuration({
 });
 
 const openai = new OpenAIApi(configuration);
-const basePromptPrefix = "Write me a country song:";
+
+const basePromptPrefix = "In the style of Eminem, ";
 const generateAction = async (req, res) => {
   // Run first prompt
-  console.log(`API: ${basePromptPrefix}${req.body.userInput}\n`)
+  console.log(`API: ${basePromptPrefix}${req.body.userInput}`)
 
   const baseCompletion = await openai.createCompletion({
     model: 'text-davinci-003',
-    prompt: `${basePromptPrefix}${req.body.userInput}`,
-    temperature: 0.85,
-    max_tokens: 1250,
+    prompt: `${basePromptPrefix}${req.body.userInput}\n`,
+    temperature: 0.8,
+    max_tokens: 250,
   });
   
   const basePromptOutput = baseCompletion.data.choices.pop();
 
   res.status(200).json({ output: basePromptOutput });
 };
-
 
 export default generateAction;
