@@ -105,7 +105,7 @@
     </div>
     <div className="badge-container grow">
       <a
-        href="https://buildspace.so/builds/ai-writer"
+        href="https://christophercelaya.com"
         target="_blank"
         rel="noreferrer"
       >
