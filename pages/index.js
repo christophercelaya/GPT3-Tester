@@ -40,10 +40,10 @@
     <div className="container">
       <div className="header">
         <div className="header-title">
-          <h1>AI Song Writer</h1>
+          <h1>Super AI Findr</h1>
         </div>
         <div className="header-subtitle">
-          <h2>Have a song written by ai.</h2>
+          <h2>Example: I'm looking for a restaurant that serves vegan food in the downtown area.</h2>
         </div>
       </div>
 
@@ -54,7 +54,7 @@
   <div className="prompt-buttons">
     <a className="generate-button" onClick={callGenerateEndpoint}>
       <div className="generate">
-        <p>Generate</p>
+        <p>Search</p>
       </div>
     </a>
   </div>
