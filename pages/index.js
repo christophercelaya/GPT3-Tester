@@ -42,25 +42,22 @@ const Home = () => {
 				<div className="header">
 					<div className="header-title">
 						{/* Change your headline here */}
-						<h1>AI Super Assistant</h1>
+						<h1>Artificial Intelligent Song Writer</h1>
 					</div>
 					<div className="header-subtitle">
 						<h1>Examples:</h1>
             <h2>
-							Find me a chinese restraunt downtown in Houston, Texas.
+							Write a song about iPhones and Androids.
 						</h2>
             <h2>
-              Write an essay about Nikola Tesla and his contributions to technology.
-            </h2>
-            <h2>
-              Create a blog post about cats and ice cream in the style of Joe Rogan.
+             Rap about cats vs Paris Hilton.
             </h2>
 					</div>
 				</div>
 
 				<div className="prompt-container">
 					<textarea
-						placeholder="Create a blog post about cats and ice cream in the style of Joe Rogan."
+						placeholder="Start typing here."
 						className="prompt-box"
 						value={userInput}
 						onChange={onUserChangedText}
