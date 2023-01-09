@@ -45,13 +45,14 @@ const Home = () => {
 						<h1>English Translator and Improver</h1>
 					</div>
 					<div className="header-subtitle">
-						<h1>Examples:</h1>
+						<h1>How to use:</h1>
 					            <h2>
 							Replace simplified A0-level words and sentences with more beautiful and elegant, upper level English words and sentences.
 						</h2>
-		<h2>
-             Use any language, meanings stay the same.
-            </h2>
+						<h2>
+						     Use any language you want. The AI will automatically translate to english.
+						</h2>
+						<h3>Example: I love technology, how can I go to school and study this to become a computer scientist?</h3>
 					</div>
 				</div>
 
