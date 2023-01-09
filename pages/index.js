@@ -42,15 +42,15 @@ const Home = () => {
 				<div className="header">
 					<div className="header-title">
 						{/* Change your headline here */}
-						<h1>AI Song Writer</h1>
+						<h1>English Translator and Improver</h1>
 					</div>
 					<div className="header-subtitle">
 						<h1>Examples:</h1>
-            <h2>
-							Write a song about iPhones and Androids taking over the world.
+					            <h2>
+							Replace simplified A0-level words and sentences with more beautiful and elegant, upper level English words and sentences.
 						</h2>
-            <h2>
-             Write a song about artificial intelligence in the style of Joe Rogan.
+		<h2>
+             Use any language, meanings stay the same.
             </h2>
 					</div>
 				</div>
